@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+#description {
+    position: relative;
+    top: 12px;
+}
+nav {
+    background: #1565c0;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+#fishing {
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+.card {
+    background: #eef5ff;
+    padding: 15px;
+    border-left: 5px solid #1e88e5;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+ul, ol {
+    margin-left: 25px;
+}
+.signs__line {
+    margin-top: 50px;
+}
+#police {
+    width: 350px;
+    height: 500px;
+}
+#bank {
+    width: 350px;
+    height: 500px;
+    margin-left: 130px;
+}
+#shablon0 {
+    position: relative;
+    left: 60px;
+}
+
+#shablon1 {
+    position: relative;
+    left: 560px;
+    bottom: 25px;
+}
+.glossary__line {
+    margin-top: 40px;
+}
+.quiz {
+    background: #fff3cd;
+    border-left: 5px solid #ffc107;
+}
+
+footer {
+    text-align: center;
+    background: #1e88e5;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
